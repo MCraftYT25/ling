@@ -1,0 +1,102 @@
+:root {
+    --main-color: rgb(253,217,141);
+    --second-color: #333;
+    --bg-color: rgb(253,217,141);
+    --font-color: black;
+    --font-2nd-color: #f2a86f;
+}
+/*-------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*-------------------------------------------------------------*/
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../files/fonts/Ubuntu-Regular.ttf');
+}
+@font-face {
+    font-family: 'Apple';
+    src: url('../files/fonts/SFUIText-Regular.otf');
+}
+/*-------------------------------------------------------------*/
+body {
+    font-family: 'Apple';
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Apple';
+    background-color: rgba(105, 136, 161, 1);
+    background-image: linear-gradient(90deg, rgba(105, 136, 161, 1) 0%, rgba(135, 157, 171, 1) 50%, rgba(178, 169, 166, 1) 100%);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+/*-------------------------------------------------------------*/
+header {
+    text-align: center;
+    padding: 0.5em;
+    /*background-color: rgba(74, 75, 98, 1);
+    background-image: linear-gradient(90deg, rgba(74, 75, 98, 1) 0%, rgba(91, 96, 121, 1) 33%, rgba(119, 112, 125, 1) 66%, rgba(148, 141, 145, 1) 100%);
+    */
+    background-color: var(--main-color);
+}
+h1 {
+    color: black;
+}
+/*-------------------------------------------------------------*/
+#main-content {
+    max-width: 700px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1em;
+    background-color: white;
+    /*border-radius: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;*/
+}
+/*-------------------------------------------------------------*/
+footer {
+    text-align: center;
+    padding: 0.5em;
+    /*background-color: rgba(74, 75, 98, 1);
+    background-image: linear-gradient(90deg, rgba(74, 75, 98, 1) 0%, rgba(91, 96, 121, 1) 33%, rgba(119, 112, 125, 1) 66%, rgba(148, 141, 145, 1) 100%);
+    */
+    background-color: var(--main-color);
+    color: black;
+}
+/*-------------------------------------------------------------*/
+#menu {
+    width: 3.5em;
+    height: 3.5em;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#on-content-menu {
+    margin-bottom: 0.5em;
+}
+#on-content-menu a {
+    color: #f2a86f;
+    font-weight: bold;
+    padding: 0.5em;
+}
+#on-content-menu a:hover {
+    color: black;
+}
+#on-content-menu nav {
+    padding-bottom: 0.5em;
+    border-bottom: solid 1px lightgray;
+}
+/*-------------------------------------------------------------*/
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.bold {
+    font-weight: bold;
+}
+/*-------------------------------------------------------------*/
+/*-------------------------------------------------------------*/
+/*-------------------------------------------------------------*/
+/*-------------------------------------------------------------*/

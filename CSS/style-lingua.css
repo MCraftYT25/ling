@@ -1,0 +1,39 @@
+/*-------------------------------------------------------------*/
+#tenses-list {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-left: 0.5em;
+}
+#tenses-list h2 {
+    padding-bottom: 0.5em;
+    border-bottom: solid 1px lightgray;
+}
+.tenses {
+    padding: 0.5em;
+    border-bottom: solid 1px lightgray;
+    display: flex;
+    flex-direction: row;
+}
+.tenses-nm {
+    width: 40%;
+}
+.tenses-gr {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.tenses-ex {
+    color: black;
+}
+.tenses-tr {
+    color: grey;
+}
+/*-------------------------------------------------------------*/
+.gr {
+    color: green;
+}
+/*-------------------------------------------------------------*/
+/*-------------------------------------------------------------*/
+/*-------------------------------------------------------------*/
+/*-------------------------------------------------------------*/
+/*-------------------------------------------------------------*/
