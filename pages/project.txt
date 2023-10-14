@@ -1,0 +1,24 @@
+Cel: stworzenie uzytecznej strony do jezyków
+Wersja 1:
+-wygląd normalny 
+Wersja 2:
+-premium jak iphone
+Etap 1: 
+-strona w html i javascript
+Etap 2:
+-strona w php z bazą danych, modułowe strony, aplikacja do ćwiczenia słówek
+
+Zadania Etap 1:
+-czasy - szczegółowy opis
+-słownik ze słówkami podzielonymi na poszczególne kategorie
+-stopniowanie + słówka 
+-czasowniki nie regularne
+-funkcja update informująca o nowych updatach
+
+Zadania Etap 1 cześć 2:
+-dodanie: jezyk włoski, język niemiecki
+
+Zadania Etap 2:
+-stworzenie modułowej strony
+-baza danych 
+-aplikacja do pisemnego ćwiczenia słówek 

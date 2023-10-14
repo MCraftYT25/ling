@@ -45,6 +45,28 @@
     outline: none;
 }
 /*-------------------------------------------------------------*/
+.languages .section {
+    padding-bottom: 0;
+}
+.languages .section h2 {
+    margin-bottom: 0;  
+    font-size: 1em;
+}
+.languages .section h2 a {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.languages .section a:hover {
+    color: #f2a86f;
+}
+.languages .section img {
+    height: 1.5em;
+    width: 2.5em;
+    margin-right: 0.5em;
+}
+/*-------------------------------------------------------------*/
 .gr {
     color: green;
 }

@@ -1,0 +1,30 @@
+-----------
+I'd like to say. |Chciałbym powiedzieć.
+-----------
+You should go for a walk. |Powinieneś iść na spacer.
+You have to go for a walk. |Musisz iść na spacer.
+You mustn't go for a walk. |Nie wolno ci iść na spacer
+-----------
+I have to. |Muszę.
+I had to. |Musiałem.
+I will have to. |Będę musiał.
+-----------
+I worked longer. |Pracowałem dłużej.
+I had to work longer. |Musiałem pracować dłużej.
+I will work longer. |Będę pracować dłużej.
+I will have to work longer. |Będę musiał pracować dłużej.
+-----------
+If I had a million dollars. |Gdybym miał milion dolarów.
+I had a million dollars. |Miałem milion dolarów.
+I was in the USA. /Byłem w USA. 
+I was in the US before I went to Canada. |Zanim wyjechałem do Kanady, byłem w USA.
+If only he had told her earlier. |Gdyby tylko powiedział jej wcześniej.
+-----------
+I'm going to go to the USA. |Mam zamiar pojechać do USA.
+-----------
+My name is John. |Nazywam się John.
+I am 18 years old. |Mam 18 lat.
+I live in USA. |Mieszkam w USA.
+I'm in fourth grade. |Jestem w 4 klasie.
+I go to the fourth grade. |Chodzę do 4 klasy.
+-----------
