@@ -1,26 +1,22 @@
-/*-------------------------------------------------------------*/
-#tenses-list {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    padding-left: 0.5em;
-}
-#tenses-list h2 {
-    padding-bottom: 0.5em;
-    border-bottom: solid 1px lightgray;
-}
 .tenses {
     padding: 0.5em;
     border-bottom: solid 1px lightgray;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .tenses-nm {
     width: 40%;
+    color: black;
+}
+.tenses-nm:hover {
+    color: #f2a86f;
 }
 .tenses-gr {
     width: 60%;
     display: flex;
     flex-direction: column;
+    padding-left: 0.5em;
 }
 .tenses-ex {
     color: black;
@@ -29,8 +25,34 @@
     color: grey;
 }
 /*-------------------------------------------------------------*/
+#useful-phrases .phrase {
+    display: flex;
+    flex-direction: row;
+}
+#useful-phrases .translate {
+    padding-left: 0.5em;
+    color: gray;
+}
+.section input {
+    background-color: rgb(253,217,141);
+    padding: 0.5em;
+    width: 50%;
+    margin-bottom: 1em;
+    border-radius: 0.5vh;
+    border: 0;
+}
+.section  input:focus {
+    outline: none;
+}
+/*-------------------------------------------------------------*/
 .gr {
     color: green;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
 }
 /*-------------------------------------------------------------*/
 /*-------------------------------------------------------------*/
