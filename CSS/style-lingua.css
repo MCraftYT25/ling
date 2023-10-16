@@ -51,12 +51,16 @@
 .languages .section h2 {
     margin-bottom: 0;  
     font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .languages .section h2 a {
     color: black;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-right: 1em;
 }
 .languages .section a:hover {
     color: #f2a86f;
