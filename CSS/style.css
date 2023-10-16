@@ -19,6 +19,38 @@
     font-family: 'Apple';
     src: url('../files/fonts/SFUIText-Regular.otf');
 }
+@font-face {
+    font-family: 'Apple-bold';
+    src: url('../files/fonts/SFUIText-Bold.otf');
+}
+@font-face {
+    font-family: 'Apple-heavy';
+    src: url('../files/fonts/SFUIText-Heavy.otf');
+}
+@font-face {
+    font-family: 'Apple-semi-bold';
+    src: url('../files/fonts/SFUIText-Semibold.otf');
+}
+@font-face {
+    font-family: 'Apple-light';
+    src: url('../files/fonts/SFUIText-Light.otf');
+}
+/*-------------------------------------------------------------*/
+.apple {
+    font-family: 'Apple';
+}
+.apple-bold {
+    font-family: 'Apple-bold';
+}
+.apple-heavy {
+    font-family: 'Apple-heavy';
+}
+.apple-semi-bold {
+    font-family: 'Apple-semi-bold';
+}
+.apple-light {
+    font-family: 'Apple-light';
+}
 /*-------------------------------------------------------------*/
 body {
     font-family: 'Apple';
@@ -30,6 +62,14 @@ header {
     background-color: rgb(253,217,141);
     padding: 1em;
     text-align: center;
+}
+h1 {
+    font-weight: normal;
+    font-family: 'apple-semi-bold';
+}
+h2 {
+    font-weight: normal;
+    font-family: 'apple-semi-bold';
 }
 /*-------------------------------------------------------------*/
 #main-content {
@@ -104,7 +144,8 @@ footer {
     text-align: center;
     padding: 0.5em;
     background-color: rgb(253,217,141);
-    font-weight: bold;
+    font-weight: normal;
+    font-family: 'apple-semi-bold';
 }
 /*-------------------------------------------------------------*/
 ::selection {
@@ -130,11 +171,14 @@ li {
     list-style-type: none;
 }
 .bold {
-    font-weight: bold;
+    /*font-weight: bold;*/
+    font-family: 'apple-semi-bold';
 }
 /*-------------------------------------------------------------*/
 #updates {
     padding: 0.5em;
+    font-weight: normal;
+    font-family: 'apple-semi-bold';
 }
 #updates .update .vr-dt {
     background-color: var(--main-color);
@@ -142,7 +186,6 @@ li {
     display: flex;
     flex-direction: row;
     border-radius: 0.5em;
-    font-weight: bold;
 }
 #updates .vr {
     width: 50%;
