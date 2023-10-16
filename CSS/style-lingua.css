@@ -40,6 +40,7 @@
     margin-bottom: 1em;
     border-radius: 0.5vh;
     border: 0;
+    font-size: 1em;
 }
 .section  input:focus {
     outline: none;
