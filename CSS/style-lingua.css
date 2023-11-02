@@ -74,14 +74,86 @@
 /*-------------------------------------------------------------*/
 .gr {
     color: green;
+    font-family: 'Apple-semi-bold';
 }
 .red {
     color: red;
+    font-family: 'Apple-semi-bold';
 }
 .blue {
     color: blue;
+    font-family: 'Apple-semi-bold';
 }
 /*-------------------------------------------------------------*/
+.tense {
+
+}
+.tense .title {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.tense .title h3 {
+    font-size: 2em;
+    font-family: 'Apple-bold';
+}
+.tense .title p {
+    margin-top: 0.25em;
+}
+.tense .title {
+
+}
+
+.tense .build {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.tense .build h4 {
+    font-size: 1.5em;
+    font-family: 'Apple-bold';
+}
+.tense .build .struct {
+    font-family: 'Apple-semi-bold';
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
+}
+.tense .build .example {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.tense .build .example .desc {
+    width: 35%;
+}
+.tense .build .example .sample {
+    width: 65%;
+}
+
+.tense .use {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.tense .use h4 {
+    font-size: 1.5em;
+    font-family: 'Apple-bold';
+}
+.tense .use .ex-use {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    
+}
+.tense .use .ex-use .desc {
+    
+}
+.tense .use .ex-use .example {
+    padding-left: 0.5em;
+}
+.tense .use .ex-use .example .sample {
+    margin-top: 0.5em;
+}
+.tense .use .ex-use .example .translate {
+    color: gray;
+}
 /*-------------------------------------------------------------*/
 /*-------------------------------------------------------------*/
 /*-------------------------------------------------------------*/
