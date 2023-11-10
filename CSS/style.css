@@ -129,6 +129,8 @@ h2 {
     flex-direction: column;
 }
 #menu-list a {
+    text-decoration: none;
+    color: black;
     padding: 0.5em;
 }
 #menu-list a:hover {
@@ -155,6 +157,17 @@ h2 {
 #on-content-menu div {
     margin-top: 1em;
 }
+#on-content-menu #links a {
+    display: inline-block;
+}
+#on-content-menu a.flag {
+    
+}
+#on-content-menu img {
+    height: 1.5em;
+    width: 2.5em;
+    margin-right: 0.5em;
+}
 /*-------------------------------------------------------------*/
 footer {
     text-align: center;
@@ -179,6 +192,9 @@ footer {
     padding: 0.5em 1em;
 }
 /*-------------------------------------------------------------*/
+.subtitle {
+    font-size: 0.7em;
+}
 /*-------------------------------------------------------------*/
 /*-------------------------------------------------------------*/
 /*-------------------------------------------------------------*/

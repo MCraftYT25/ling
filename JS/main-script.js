@@ -1,4 +1,4 @@
-const VERSION = "0.8";
+const VERSION = "0.9";
 const VERSIONDATE = "2023-10-19";
 const YEAR = "2023";
 const COMPANY = "VSK1 GmbH";
@@ -16,7 +16,7 @@ function menu()
     menu_value++;
     if(menu_value % 2 == 0)
     {
-        document.getElementById('menu-list-cont').innerHTML = '<div id="menu-list"><a>Zaloguj</a><a>Załóż konto</a><a>Settings</a></div>';
+        document.getElementById('menu-list-cont').innerHTML = '<div id="menu-list"><a href="">Zaloguj</a><a href="">Załóż konto</a><a href="">Settings</a></div>';
     } else {
         document.getElementById('menu-list-cont').innerText = '';
     } 
