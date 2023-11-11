@@ -17,11 +17,15 @@
     </header>
     <div id="main-content">
         <div id="on-content-menu">
+            <p class="subtitle">home / english / tenes</p>
             <nav>
-                <a href="../index.html">HOME</a>
-                <a href="../pages/update.html">UPDATE</a>
-                <a href="english.html" class="flag"><img src="../files/img/flags/Flag_of_the_United_Kingdom.png"></a>
-                <a href="">TENSES</a>
+                <div>
+                    <a href="../index.html">HOME</a>
+                    <a href="../pages/update.html">UPDATE</a>
+                    <a href="english.html" class="flag"><img src="../files/img/flags/Flag_of_the_United_Kingdom.png"></a>
+                    <a href="" class="flag"><img src="../files/img/flags/Flag_of_Germany.svg.png"></a>
+                    <a href="" class="flag"><img src="../files/img/flags/Flag_of_Italy.png"></a>
+                </div>     
             </nav>
             <div id="links">
                 <a href="#PresentContinuous">Present Continuous</a>
@@ -882,17 +886,4 @@
     <footer id="footer"></footer>
 </body>
 <script src="../JS/main-script.js"></script>
-<script>
-    let menu_value = 1;
-    function menu()
-    {
-        menu_value++;
-        if(menu_value % 2 == 0)
-        {
-            document.getElementById('menu-list-cont').innerHTML = '<div id="menu-list"><a>Zaloguj</a><a>Załóż konto</a><a>Settings</a></div>';
-        } else {
-            document.getElementById('menu-list-cont').innerText = '';
-        } 
-    }
-</script>
 </html>

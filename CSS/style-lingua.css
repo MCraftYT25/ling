@@ -1,28 +1,3 @@
-/*@font-face {
-    font-family: 'Ubuntu';
-    src: url('../files/fonts/Ubuntu-Regular.ttf');
-}
-@font-face {
-    font-family: 'Apple';
-    src: url('../files/fonts/SFUIText-Regular.otf');
-}
-@font-face {
-    font-family: 'Apple-bold';
-    src: url('../files/fonts/SFUIText-Bold.otf');
-}
-@font-face {
-    font-family: 'Apple-heavy';
-    src: url('../files/fonts/SFUIText-Heavy.otf');
-}
-@font-face {
-    font-family: 'Apple-semi-bold';
-    src: url('../files/fonts/SFUIText-Semibold.otf');
-}
-@font-face {
-    font-family: 'Apple-light';
-    src: url('../files/fonts/SFUIText-Light.otf');
-}*/
-
 .tenses {
     padding: 0.5em;
     border-bottom: solid 1px lightgray;

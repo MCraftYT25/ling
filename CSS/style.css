@@ -87,6 +87,12 @@ h2 {
     font-weight: normal;
     font-family: 'apple-semi-bold';
 }
+h2 a:hover {
+    color: #f2a86f;
+}
+h2 a {
+    color: black;
+}
 /*-------------------------------------------------------------*/
 #main-content {
     max-width: 700px;
@@ -141,10 +147,16 @@ h2 {
     padding: 0.5em;
 }
 #on-content-menu nav {
-    padding: 1em;
+    padding-left: 0.5em;
     border-radius: 1vh;
     background-color: rgb(253,217,141);
     margin-top: 0.5em;
+}
+#on-content-menu nav div {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
 }
 #on-content-menu a {
     color: black;
@@ -154,19 +166,25 @@ h2 {
 #on-content-menu a:hover {
     color: #f2a86f;
 }
-#on-content-menu div {
+#on-content-menu div#links {
     margin-top: 1em;
 }
 #on-content-menu #links a {
     display: inline-block;
 }
 #on-content-menu a.flag {
-    
+    display: inline-flex;
+    align-items: center;
+}
+#on-content-menu a.flag:hover {
+    background-color: #f2a86f;
 }
 #on-content-menu img {
-    height: 1.5em;
+    /*height: 1.5em;
     width: 2.5em;
-    margin-right: 0.5em;
+    margin-right: 0.5em;*/
+    width: 3.5em;
+    height: 2em;
 }
 /*-------------------------------------------------------------*/
 footer {
@@ -194,6 +212,11 @@ footer {
 /*-------------------------------------------------------------*/
 .subtitle {
     font-size: 0.7em;
+}
+.minisubtitle {
+    font-size: 0.7em;
+    font-family: 'Apple-light';
+    text-align: right;
 }
 /*-------------------------------------------------------------*/
 /*-------------------------------------------------------------*/
