@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style-lingua.css">
+    <link rel="stylesheet" href="../CSS/style-ita.css">
+    <link rel="icon" type="image/x-icon" href="../files/img/icon.jpg">
+    <title>VSKY.COM</title>
+</head>
+<body>
+    <header id="header">
+        <h1>Italiano</h1>
+        <div onclick="menu();" id="menu">
+            <img src="../files/img/user-icon.png">
+        </div>
+    </header>
+    <div id="main-content">
+        <div id="on-content-menu">
+            <p class="subtitle">home / italiano</p>
+            <nav>
+                <div>
+                    <a href="../index.html">HOME</a>
+                    <a href="english.html" class="flag"><img src="../files/img/flags/Flag_of_the_United_Kingdom.png"></a>
+                    <a href="" class="flag"><img src="../files/img/flags/Flag_of_Germany.svg.png"></a>
+                    <a href="" class="flag"><img src="../files/img/flags/Flag_of_Italy.png"></a>
+                    <a href="../pages/update.html">UPDATE</a>
+                </div> 
+            </nav>
+            <div id="links"> 
+                <a href="#tenses-list">CZASY</a>
+                <a href="#useful-phr">ZWROTY</a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Język Włoski</h2>
+            <p>opis</p>
+            <div class="czasownik-odmiana">
+                <div class="cont-wstep">
+                    <h3 class="tytul">Czasowniki zakończone na „are”</h3>
+                    <p class="opis">W celu odmiany czasownika w formie bezokolicznikowej, usuwamy końcówkę „are” i dodajemy pogrubione znaki.</p>
+                </div>
+                <div class="cont-nazwa-czasownika">
+                    <p class="czasownik">guardare</p>
+                    <p class="pauza">—</p>
+                    <p class="tlumaczenie">oglądać</p>
+                </div>
+                <div class="cont-odmiana">
+                    <div class="odmiana">
+                        <p class="czasownik">io guard<span class="koncowka">o</span></p>
+                        <p class="pauza">—</p>
+                        <p class="tlumaczenie">ja oglądam</p>
+                    </div>
+                    <div class="odmiana">
+                        <p class="czasownik">io guard<span class="koncowka">o</span></p>
+                        <p class="pauza">—</p>
+                        <p class="tlumaczenie">ja oglądam</p>
+                    </div>
+                    <div class="odmiana">
+                        <p class="czasownik">io guard<span class="koncowka">o</span></p>
+                        <p class="pauza">—</p>
+                        <p class="tlumaczenie">ja oglądam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="">
+            <h2><a href="">Podstawy</a></h2>
+        </div>
+        <div class="section" id="">
+            <h2><a href="">Odmiana czasowników</a></h2>
+        </div>
+        <div class="section" id="">
+            <h2><a href="">Zwroty</a></h2>
+        </div>
+        <div class="section" id="">
+            <h2><a href="">Słownik</a></h2>
+        </div>
+        <div class="section" id="">
+            <h2><a href="">Liczby</a></h2>
+        </div>
+        <div class="section" id="">
+            <h2><a href="">Czasy</a></h2>
+        </div>
+        <div class="section" id="">
+            <h2><a href=""></a></h2>
+        </div>
+        <div class="section" id="">
+            <h2><a href=""></a></h2>
+        </div>
+        <div class="section" id="">
+            <h2><a href=""></a></h2>
+        </div>
+        <div class="section" id="">
+            <h2><a href=""></a></h2>
+        </div>
+        <div class="section" id="">
+            <h2><a href=""></a></h2>
+        </div>
+        <div class="section" id="">
+            <h2><a href=""></a></h2>
+        </div>
+    </div>
+    <div id="menu-list-cont"></div>
+    <div id="mobile-widgets"><a id="gomenu" href="#menu">Menu</a></div>
+    <footer id="footer"></footer>
+</body>
+<script src="../JS/main-script.js"></script>
+<script>
+    const elements = [...document.getElementsByClassName("phrase")];
+    const container = document.getElementById("useful-phrases");
+
+    const searchWord = () => {
+        const search = document.getElementById('searchelement').value;
+        let result = elements;
+        const search2 = search[0].toUpperCase() + search.slice(1);
+        result = result.filter(elements => elements.textContent.includes(search) || elements.textContent.includes(search2));
+        container.textContent = '';
+        result.forEach(name => container.appendChild(name));
+    }
+
+    document.addEventListener('input', searchWord);
+</script>
+</html>

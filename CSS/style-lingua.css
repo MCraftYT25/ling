@@ -85,9 +85,6 @@
     font-family: 'Apple-semi-bold';
 }
 /*-------------------------------------------------------------*/
-.tense {
-
-}
 .tense .title {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -100,10 +97,6 @@
 .tense .title p {
     margin-top: 0.25em;
 }
-.tense .title {
-
-}
-
 .tense .build {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -145,9 +138,6 @@
     margin-bottom: 0.5em;
     
 }
-.tense .use .ex-use .desc {
-    
-}
 .tense .use .ex-use .example {
     padding-left: 0.5em;
 }
@@ -158,16 +148,13 @@
     color: gray;
 }
 /*-------------------------------------------------------------*/
-.phrasal-verb {
-    
+.phrasal-verb .example p::selection {
+    color: black;
 }
 .cont-phrasal-verb {
     display: flex;
     flex-direction: row;
 }
-.phrasal-verb .pv {
-
-} 
 .phrasal-verb .pause {
     margin-left: 0.5em;
     margin-right: 0.5em;
@@ -179,5 +166,40 @@
     color: lightgray;
 }
 /*-------------------------------------------------------------*/
+#modal-verbs
+.modal-verb {
+    border-top: 1px lightgray solid;
+    border-bottom: 1px lightgray solid;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+.verb-translate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.2em;
+}
+.verb-translate .verb {
+    font-family: 'apple-semi-bold';
+    font-size: 1.5em;
+}
+.verb-translate .pause {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.verb-translate .translate {
+    color: black;
+}
+.usage h3 {
+    margin: 0.2em;
+    font-family: 'apple-light';
+    font-size: 0.8em;
+}
+.use {
+    margin: 0.2em;
+}
+.use .example {
+    color: gray;
+}
 /*-------------------------------------------------------------*/
 /*-------------------------------------------------------------*/

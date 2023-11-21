@@ -1,0 +1,36 @@
+.czasownik-odmiana {
+    padding: 0.2em;
+}
+.czasownik-odmiana .cont-wstep {
+    
+}
+.czasownik-odmiana .cont-wstep .tytul {
+    font-size: 1.5em;
+
+}
+.czasownik-odmiana .cont-wstep .opis {
+    padding: 0.2em;
+}
+.czasownik-odmiana .cont-nazwa-czasownika {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.czasownik-odmiana .pauza {
+    margin: 0 0.4em;
+}
+.czasownik-odmiana .cont-nazwa-czasownika {
+    padding: 0.2em;
+}
+.czasownik-odmiana .cont-nazwa-czasownika .czasownik {
+    
+}
+.czasownik-odmiana .cont-nazwa-czasownika .tlumaczenie {
+    color: grey;
+}
+.czasownik-odmiana .cont-odmiana {
+    padding: 0.2em;
+}
+.czasownik-odmiana {
+    
+}

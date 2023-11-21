@@ -1,5 +1,5 @@
-const VERSION = "1.0";
-const VERSIONDATE = "2023-11-11";
+const VERSION = "1.1";
+const VERSIONDATE = "2023-11-12";
 const YEAR = "2023";
 const COMPANY = "VSK1 GmbH";
 

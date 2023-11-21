@@ -185,6 +185,7 @@ h2 a {
     margin-right: 0.5em;*/
     width: 3.5em;
     height: 2em;
+    border-radius: 0.2em;
 }
 /*-------------------------------------------------------------*/
 footer {
@@ -199,6 +200,12 @@ footer {
 /*-------------------------------------------------------------*/
 ::selection {
     background-color: rgb(253,217,141);
+}
+input::selection, h1::selection, h2::selection, a::selection{
+    background-color: #f2a86f;
+}
+a:hover::selection {
+    background-color: #333;
 }
 /*-------------------------------------------------------------*/
 .price {
